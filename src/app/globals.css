@@ -24,3 +24,11 @@ body {
  
 }
 
+.background-gradient {
+  background: linear-gradient( 135deg,
+  #6b00f5, 
+  #8836ff, 
+  #ff4da6);
+  background-size: cover; 
+  
+}
