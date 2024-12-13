@@ -1,6 +1,9 @@
 import Banner from '@/src/components/Ui/Home/Banner';
 import PlatformComparision from '@/src/components/Ui/Home/PlatformComparision';
 import PricingPlains from '@/src/components/Ui/Home/PricingPlains';
+// import SocialMediaAnalytics from '@/src/components/Ui/Home/SocialMediaAnalytics';
+// import SocialMediaInbox from '@/src/components/Ui/Home/SocialMediaInbox';
+import SocialMediaScheduling from '@/src/components/Ui/Home/SocialMediaScheduling';
 import SocialPlatform from '@/src/components/Ui/Home/SocialPlatform';
 import '@/src/style/Home.css'
 
@@ -13,6 +16,9 @@ const page = () => {
            <SocialPlatform/>
            <PlatformComparision/>
            <PricingPlains/>
+           <SocialMediaScheduling/>
+           {/* <SocialMediaAnalytics/>
+           <SocialMediaInbox/> */}
            </div>
         </div>
     );
