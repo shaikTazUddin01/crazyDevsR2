@@ -1,4 +1,5 @@
 import Banner from '@/src/components/Ui/Home/Banner';
+import CompareAlternatives from '@/src/components/Ui/Home/CompareAlternatives';
 import PlatformComparision from '@/src/components/Ui/Home/PlatformComparision';
 import PricingPlains from '@/src/components/Ui/Home/PricingPlains';
 import SocialMediaAnalytics from '@/src/components/Ui/Home/SocialMediaAnalytics';
@@ -23,6 +24,7 @@ const page = () => {
            <TeamsApprovals/>
            <SocialMediaInbox/>
            <Summery/>
+           <CompareAlternatives/>
            </div>
         </div>
     );
