@@ -1,6 +1,7 @@
 import Banner from '@/src/components/Ui/Home/Banner';
 import CompareAlternatives from '@/src/components/Ui/Home/CompareAlternatives';
 import PlatformComparision from '@/src/components/Ui/Home/PlatformComparision';
+import PostizEnhance from '@/src/components/Ui/Home/PostizEnhance';
 import PricingPlains from '@/src/components/Ui/Home/PricingPlains';
 import SocialMediaAnalytics from '@/src/components/Ui/Home/SocialMediaAnalytics';
 import SocialMediaInbox from '@/src/components/Ui/Home/SocialMediaInbox';
@@ -25,6 +26,7 @@ const page = () => {
            <SocialMediaInbox/>
            <Summery/>
            <CompareAlternatives/>
+           <PostizEnhance/>
            </div>
         </div>
     );
