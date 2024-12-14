@@ -1,6 +1,7 @@
 import Banner from '@/src/components/Ui/Home/Banner';
 import CompareAlternatives from '@/src/components/Ui/Home/CompareAlternatives';
 import FAQ from '@/src/components/Ui/Home/FAQ';
+import GetReady from '@/src/components/Ui/Home/GetReady';
 import PlatformComparision from '@/src/components/Ui/Home/PlatformComparision';
 import PostizEnhance from '@/src/components/Ui/Home/PostizEnhance';
 import PricingPlains from '@/src/components/Ui/Home/PricingPlains';
@@ -19,7 +20,7 @@ const page = () => {
            <Banner/>
            <div className='max-w-[1440px] mx-auto px-[60px]'>
            <SocialPlatform/>
-           <PlatformComparision/>
+           {/* <PlatformComparision/>
            <PricingPlains/>
            <SocialMediaScheduling/>
            <SocialMediaAnalytics/>
@@ -28,8 +29,9 @@ const page = () => {
            <Summery/>
            <CompareAlternatives/>
            <PostizEnhance/>
-           <FAQ/>
+           <FAQ/> */}
            </div>
+        {/* <GetReady/>  */}
         </div>
     );
 };

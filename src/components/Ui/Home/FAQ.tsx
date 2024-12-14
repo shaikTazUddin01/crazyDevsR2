@@ -11,7 +11,7 @@ const FAQ = () => {
 
   return (
     <div>
-      <div className="text-white mx-auto rounded-lg flex items-start justify-between mt-[180px] gap-[60px]">
+      <div className="text-white mx-auto rounded-lg flex items-start justify-between my-[180px] gap-[60px]">
         <div className="max-w-[25%]">
           <h2 className="text-[48px] font-bold leading-[52px]">
             Frequently asked questions
