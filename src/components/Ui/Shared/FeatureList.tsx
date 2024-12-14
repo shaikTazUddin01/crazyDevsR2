@@ -8,7 +8,7 @@ export const FeatureList = ({
   title?: string;
   features: Record<string, boolean>[];
 }) => (
-  <div className="mt-9">
+  <div className="mt-8 lg:mt-9">
     {
       title &&
     <h3 className="text-[22px] font-bold mb-2 font-plus-jakarta">{title}</h3>
@@ -19,7 +19,7 @@ export const FeatureList = ({
         return (
           <li key={index} className="flex items-center gap-2">
             <span
-              className={`text-[22px] p-[8px] font-extrabold rounded-full ${
+              className={`text-[18px] lg:text-[22px] p-[6px] lg:p-[8px] font-extrabold rounded-full ${
                 value
                   ? "text-[#38FF9F] bg-[#262525]"
                   : "text-[#FF4E4E] bg-[#2E2E2E]"
@@ -27,7 +27,7 @@ export const FeatureList = ({
             >
               {value ? <FcCheckmark /> : <IoMdClose />}
             </span>
-            <span className="text-[22px] text-[#D1D1D1] font-normal mt-1">{key}</span>
+            <span className="text-[18px] lg:text-[22px] text-[#D1D1D1] font-normal mt-1">{key}</span>
           </li>
         );
       })}

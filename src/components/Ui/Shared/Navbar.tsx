@@ -1,7 +1,7 @@
 "use client";
 import logo from "@/src/assets/Logo.png";
 import Image from "next/image";
-import { MdKeyboardArrowDown } from "react-icons/md";
+import { MdKeyboardArrowDown, MdKeyboardDoubleArrowRight } from "react-icons/md";
 import StartButton from "./StartButton";
 import { LuMenu } from "react-icons/lu";
 import { IoIosArrowDown, IoMdClose } from "react-icons/io"; // Close icon
@@ -15,13 +15,13 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar flex justify-between items-center py-4 px-[20px] lg:px-[60px] max-w-[1440px] mx-auto relative">
+    <nav className="navbar flex justify-between items-center py-4 px-[20px] xl:px-[60px] max-w-[1440px] mx-auto relative ">
       {/* Logo Section */}
       <div>
         <Image src={logo} alt="Company Logo" />
       </div>
       {/* Large screen */}
-      <ul className="lg:flex gap-12 text-[16px] font-medium hidden">
+      <ul className="lg:flex gap-6 xl:gap-12 text-[16px] font-medium hidden">
         <li className=" cursor-pointer">Features</li>
         <li className="flex items-center gap-1  cursor-pointer">
           Products <MdKeyboardArrowDown />
@@ -32,10 +32,15 @@ const Navbar = () => {
       </ul>
       {/* Action Buttons */}
       <div className="hidden lg:flex items-center gap-4">
-        <button className="border px-6 py-[10px] rounded-[30px] border-gray-300 hover:bg-gray-100 text-base font-normal">
+        <button className="border px-6 py-[11px] rounded-[30px] border-gray-300 hover:bg-gray-900 text-base font-normal">
           Log In
         </button>
-        <StartButton />
+         <button className="text-black pl-6 pr-4 py-3 font-medium text-base rounded-[30px] bg-white  flex items-center justify-center gap-1 font-plus-jakarta hover:bg-[#dddddd] tracking-wider">
+              Get Started
+              <span className="text-[23px] -mt-[1px]">
+                <MdKeyboardDoubleArrowRight />
+              </span>
+            </button>
       </div>
       {/* Small screen */}
       <div className="flex lg:hidden">

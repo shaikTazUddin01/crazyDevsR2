@@ -4,10 +4,10 @@ import React, { ReactNode } from 'react';
 
 const layout = ({children}:{children:ReactNode}) => {
     return (
-        <div>
+        <div className='font-dm-sans'>
             <Navbar/>
             {children}
-            {/* <Footer/> */}
+            <Footer/>
         </div>
     );
 };
