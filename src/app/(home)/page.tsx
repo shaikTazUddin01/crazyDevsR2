@@ -1,7 +1,7 @@
 import Banner from "@/src/components/Ui/Home/Banner";
 import CompareAlternatives from "@/src/components/Ui/Home/CompareAlternatives";
 import FAQ from "@/src/components/Ui/Home/FAQ";
-import GetReady from "@/src/components/Ui/Home/GetReady";
+
 import PlatformComparision from "@/src/components/Ui/Home/PlatformComparision";
 import PostizEnhance from "@/src/components/Ui/Home/PostizEnhance";
 import PricingPlains from "@/src/components/Ui/Home/PricingPlains";
@@ -26,7 +26,7 @@ const page = () => {
         <SocialMediaAnalytics />
         <TeamsApprovals />
         <SocialMediaInbox />
-        <div className="hidden lg:flex">
+        <div className="hidden md:flex">
         <Summery />
         </div>
         <CompareAlternatives />

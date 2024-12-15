@@ -1,5 +1,6 @@
-import { FcCheckmark } from "react-icons/fc";
+
 import { IoMdClose } from "react-icons/io";
+import { MdCheck } from "react-icons/md";
 
 export const FeatureList = ({
   title,
@@ -11,7 +12,7 @@ export const FeatureList = ({
   <div className="mt-8 lg:mt-9">
     {
       title &&
-    <h3 className="text-[22px] font-bold mb-2 font-plus-jakarta">{title}</h3>
+    <h3 className="text-[18px] lg:text-[22px] font-bold mb-4 font-plus-jakarta">{title}</h3>
     }
     <ul className="space-y-[10px] mt-[12px]">
       {features.map((feature:Record<string,boolean>, index) => {
@@ -25,7 +26,7 @@ export const FeatureList = ({
                   : "text-[#FF4E4E] bg-[#2E2E2E]"
               }`}
             >
-              {value ? <FcCheckmark /> : <IoMdClose />}
+              {value ? <MdCheck /> : <IoMdClose />}
             </span>
             <span className="text-[18px] lg:text-[22px] text-[#D1D1D1] font-normal mt-1">{key}</span>
           </li>

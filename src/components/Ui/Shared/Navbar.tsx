@@ -2,9 +2,8 @@
 import logo from "@/src/assets/Logo.png";
 import Image from "next/image";
 import { MdKeyboardArrowDown, MdKeyboardDoubleArrowRight } from "react-icons/md";
-import StartButton from "./StartButton";
 import { LuMenu } from "react-icons/lu";
-import { IoIosArrowDown, IoMdClose } from "react-icons/io"; // Close icon
+import { IoIosArrowDown, IoMdClose } from "react-icons/io"; 
 import { useState } from "react";
 
 const Navbar = () => {

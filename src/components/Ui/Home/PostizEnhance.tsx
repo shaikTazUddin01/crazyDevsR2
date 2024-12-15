@@ -6,7 +6,7 @@ import Doodle2 from "@/src/assets/Doodle2.png"
 
 const PostizEnhance = () => {
   return (
-    <div className="bg-[#3C1AC9] py-[50px] px-[19px] p-[60px]  grid grid-cols-1 lg:grid-cols-3 gap-10 justify-between items-center rounded-[20px] mt-[100px] lg:mt-[180px] w-full">
+    <div className="bg-[#3C1AC9] py-[50px] px-[19px] lg:px-[60px] lg:py-[60px]  grid grid-cols-1 lg:grid-cols-3 gap-10 justify-between items-center rounded-[20px] mt-[100px] lg:mt-[180px] w-full">
       <div className="lg:col-span-2 ">
         <h1 className="text-[30px] lg:text-[48px] leading-[30px] lg:leading-[52px] font-plus-jakarta font-bold mb-[32px] inline">
           Choose{" "}
@@ -23,8 +23,8 @@ const PostizEnhance = () => {
           channels.
         </p>
       </div>
-      <div className="lg:col-span-1 flex flex-row-reverse lg:flex-row justify-end lg:justify-between  items-center  w-full gap-3">
-        <Image src={Doodle} alt="doodle image " className="mt-8 ml-5 hidden lg:flex"/>
+      <div className="-mt-1 lg:mt-0 lg:col-span-1 flex flex-row-reverse lg:flex-row justify-end lg:justify-between  items-center  w-full gap-3">
+        <Image src={Doodle} alt="doodle image " className="mt-8 ml-8 hidden lg:flex"/>
         
         <Image src={Doodle2} alt="doodle image " className=" flex lg:hidden -mt-5"/>
         

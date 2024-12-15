@@ -9,13 +9,13 @@ const PlatformComparision = () => {
         Platform Comparison
       </h1>
       {/* comparision card */}
-      <div className="flex flex-col lg:flex-row gap-2 lg:gap-3 relative">
+      <div className="flex flex-col md:flex-row gap-2 lg:gap-3 relative">
         {/* postiz */}
         <div className="bg-gradient-to-r from-[#5608D5] to-[#24005E] py-[33px] lg:py-[60px] px-[21px] lg:px-[70px] rounded-[20px]">
-          <Image src={postiz} alt="postiz" className="w-[123px] lg:w-[190px]" />
+          <Image src={postiz} alt="postiz" className="w-[123px] lg:w-[180px] h-auto" />
           <div className="mt-[12px] lg:mt-[24px]">
             <h1 className="font-semibold pb-3 text-[22px] lg:text-[34px]">Postiz</h1>
-            <p className="text-[18px] lg:text-[22px] tracking-wide font-normal">
+            <p className="text-[18px] lg:text-[21px] tracking-wide font-normal leading-[24px]">
               Postiz helps you build an audience organically. We’re a
               values-driven company that provides affordable, intuitive,
               marketing tools for ambitious people and teams.
@@ -24,10 +24,10 @@ const PlatformComparision = () => {
         </div>
         {/* buffer */}
         <div className="bg-[#1A1919] py-[33px] lg:py-[60px] px-[21px] lg:px-[70px] rounded-[20px]">
-          <Image src={buffer} alt="buffer" className="w-[143px] lg:w-[210px]"/>
+          <Image src={buffer} alt="buffer" className="w-[143px] lg:w-[190px]"/>
           <div className="mt-[12px] lg:mt-[24px]">
             <h1 className="font-semibold pb-3 text-[22px] lg:text-[34px]">Buffer</h1>
-            <p className="text-[18px] lg:text-[22px] text-[#D1D1D1] tracking-wide font-normal">
+            <p className="text-[18px] lg:text-[21px] text-[#D1D1D1] tracking-wide font-normal leading-[24px]">
               Buffer helps you build an audience organically. We’re a
               values-driven company that provides affordable, intuitive,
               marketing tools for ambitious people and teams.

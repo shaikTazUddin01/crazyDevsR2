@@ -2,11 +2,11 @@ import React from "react";
 
 const CompareAlternatives = () => {
   return (
-    <div className="text-white pt-[60px] lg:pt-[120px]">
+    <div className="text-white pt-[60px] lg:pt-[100px]">
       <h1 className="text-[32px] lg:text-[48px] font-bold text-center mb-[30px] lg:mb-[60px] font-plus-jakarta">
         Compare ALternatives
       </h1>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
         <div className="bg-[#1A1919] rounded-[16px] lg:rounded-[20px]  p-[22px] lg:p-[44px] font-plus-jakarta">
           <h1 className="text-[22px] lg:text-[34px] font-bold font-plus-jakarta">
             Postiz - Compare Alternatives
@@ -28,7 +28,7 @@ const CompareAlternatives = () => {
           
         </div>
         {/* right side */}
-        <div className="bg-[#1A1919] rounded-[20px] p-[44px] font-plus-jakarta">
+        <div className="bg-[#1A1919] rounded-[20px]  p-[22px] lg:p-[44px]  font-plus-jakarta">
           <h1 className="text-[22px] lg:text-[34px] font-bold font-plus-jakarta ">
             Buffer - Compare Alternatives
           </h1>
